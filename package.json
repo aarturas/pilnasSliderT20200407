@@ -1,0 +1,16 @@
+{
+  "name": "pilnasslidert20200407",
+  "version": "1.0.0",
+  "description": "pilnasSliderT20200407",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "aarturas",
+  "license": "MIT"
+}
